@@ -1,0 +1,90 @@
+/***** Rouge Script, cursive Montserrat, sans-serif *****/
+/***** BASE STYLES *****/
+body{
+	font-family: 'Montserrat', sans-serif;
+	color: #000000
+}
+
+/***** GRID *****/
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+	overflow: auto;
+}
+.half-width {
+	width: 600px;
+	float: left;
+}
+.third-width {
+	width: 400px;
+	float: left;
+}
+
+/*****HEADER *****/
+header {
+    height: 100px;
+    }
+header h1 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+header h1 span {
+  color: #77a466;
+}
+nav {
+    float: right;
+    }
+nav ul li{
+    display: inline-block;
+}
+	nav ul li a {
+    color: #77a466;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/***** PICTURE *****/
+
+#photo .full-width{
+  border: 5px solid #77a466;
+  height: auto;
+  }
+
+/***** ABOUT *****/
+#about h2{
+  color: #77a466;
+	font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#about p{
+	font-size: 16px;
+	line-height: 25px;
+}
+
+/***** MENU *****/
+#bottom .third-width{
+	border: 9px solid #000000;
+	clear: both;
+}
+#bottom h3{
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	}
+#bottom #specials{
+	color: #77a466;
+	font-size: 16px;
+	}
+#bottom #reviews{
+	font-size: 16px;
+	line-height: 21px;
+	}
+#bottom #contact{
+	font-size: 16px;
+	line-height: 24px;
+	}
+
+/***** FOOTER *****/
