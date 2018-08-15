@@ -68,6 +68,7 @@ nav ul li{
 #bottom .third-width{
 	border: 9px solid #000000;
 	clear: both;
+	float: left;
 }
 #bottom h3{
 	font-size: 18px;
