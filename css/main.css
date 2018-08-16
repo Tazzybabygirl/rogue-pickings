@@ -62,9 +62,12 @@ header h1 span {
 	text-transform: uppercase;
 	}
 #bottom #specials{
-	color: #77a466;
 	font-size: 16px;
 	}
+#menu {
+	color: #77a466;
+	font-weight: 700;
+}
 #bottom #reviews{
 	font-size: 16px;
 	line-height: 21px;
