@@ -16,8 +16,12 @@ body{
 	float: left;
 }
 .third-width {
-	width: 400px;
+	width: 381px;
 	float: left;
+	border: 3px solid #77a466;
+	margin: auto;
+	height: 200px;
+	padding-left: 10px;
 }
 
 /*****HEADER *****/
@@ -65,11 +69,6 @@ nav ul li{
 }
 
 /***** MENU *****/
-#bottom .third-width{
-	border: 9px solid #000000;
-	clear: both;
-	margin: auto;
-}
 #bottom h3{
 	font-size: 18px;
 	font-weight: bold;
