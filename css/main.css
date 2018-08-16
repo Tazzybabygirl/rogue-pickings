@@ -8,7 +8,7 @@ body{
 /***** GRID *****/
 .full-width {
   width: 1200px;
-  margin: 0 auto;
+  margin: auto;
 	overflow: auto;
 }
 .half-width {
@@ -35,26 +35,13 @@ header h1 {
 header h1 span {
   color: #77a466;
 }
-nav {
-    float: right;
-    }
-nav ul li{
-    display: inline-block;
-}
-	nav ul li a {
-    color: #77a466;
-    font-size: 14px;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-decoration: none;
-}
 
 /***** PICTURE *****/
 
 #photo .full-width{
   border: 5px solid #77a466;
   height: auto;
-  }
+	}
 
 /***** ABOUT *****/
 #about h2{
@@ -88,3 +75,7 @@ nav ul li{
 	}
 
 /***** FOOTER *****/
+footer h2 span{
+	color: #77a466;
+	font-family: 'Rogue Script', cursive;
+}
