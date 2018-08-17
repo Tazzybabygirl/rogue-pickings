@@ -38,8 +38,9 @@ header h1 span {
 
 /***** PICTURE *****/
 
-#photo .full-width{
-  border: 5px solid #77a466;
+#hero-image{
+  border-top: 5px solid #77a466;
+	border-bottom: 5px solid #77a466;
   height: auto;
 	}
 
