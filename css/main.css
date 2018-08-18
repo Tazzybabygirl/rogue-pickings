@@ -37,7 +37,7 @@ header h1 span {
 }
 nav{
   float: right;
-	padding: 25px;
+	padding-top: 15px;
   }
 nav ul li{
   display: inline-block;
@@ -45,7 +45,8 @@ nav ul li{
   text-decoration: none;
   font-size: 16px;
   color: #77a466;
-  }
+	margin: 5px;
+	}
 
 /***** PICTURE *****/
 
